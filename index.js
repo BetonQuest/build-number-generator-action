@@ -1,9 +1,9 @@
-const core = require('@actions/core');
-const fs = require('fs-extra');
-const path = require('path');
-const simpleGit = require('simple-git');
-const lockfile = require('proper-lockfile');
-const os = require('os');
+import * as core from '@actions/core';
+import fs from 'fs-extra';
+import path from 'path';
+import simpleGit from 'simple-git';
+import lockfile from 'proper-lockfile';
+import os from 'os';
 
 const FILE_NAME = 'build_numbers.json';
 const WORKTREE_DIR = path.join(os.tmpdir(), 'build-numbers-worktree');

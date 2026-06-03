@@ -2,6 +2,7 @@
   "name": "build-number-generator",
   "description": "A github action that generated build numbers",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BetonQuest/build-number-generator.git"
